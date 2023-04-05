@@ -1,6 +1,7 @@
-# Landing create-react-app Example
+# 使用说明
 
-详细使用请查看 landing 里的 [use in create-react-app](https://landing.ant.design/docs/use/create-react-app)
+npm i
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+npm start
+
 
