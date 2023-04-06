@@ -1,4 +1,10 @@
 import React from 'react';
+const bg1 = require('../static/images/bg5.png')
+const bg2 = require('../static/images/bg6.png')
+const bg3 = require('../static/images/bg7.png')
+const icon1 = require('../static/images/icon1.png')
+const icon2 = require('../static/images/icon2.png')
+const icon3 = require('../static/images/icon3.png')
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -120,7 +126,7 @@ export const Banner50DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>Cloudeon</p>
+            <p>CloudEon</p>
           </span>
         ),
         className: 'banner5-title lg3fubqb6a-editor_css',
@@ -255,8 +261,8 @@ export const Feature30DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
+            children: icon1,
+              //'https://zos.alipayobjects.com/rmsportal/ScHBSdwpTkAHZkJ.png',
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -287,8 +293,8 @@ export const Feature30DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
+            children: icon2,
+              //'https://zos.alipayobjects.com/rmsportal/NKBELAOuuKbofDD.png',
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -323,8 +329,8 @@ export const Feature30DataSource = {
         children: {
           icon: {
             className: 'content3-icon',
-            children:
-              'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
+            children: icon3,
+             //  'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
           },
           textWrapper: { className: 'content3-text' },
           title: {
@@ -355,7 +361,7 @@ export const Feature10DataSource = {
   OverPack: { className: 'home-page content1', playScale: 0.3 },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
+    children: bg1,
   },
   textWrapper: { className: 'content1-text', md: 14, xs: 24 },
   title: {
@@ -384,7 +390,7 @@ export const Feature20DataSource = {
   OverPack: { className: 'home-page content2', playScale: 0.3 },
   imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
   img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png',
+    children: bg2,//'https://zos.alipayobjects.com/rmsportal/tvQTfCupGUFKSfQ.png',
   },
   textWrapper: { className: 'content2-text', md: 14, xs: 24 },
   title: {
@@ -411,7 +417,7 @@ export const Feature11DataSource = {
   OverPack: { className: 'home-page content1', playScale: 0.3 },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: {
-    children: 'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
+    children: bg3,//'https://zos.alipayobjects.com/rmsportal/nLzbeGQLPyBJoli.png',
   },
   textWrapper: { className: 'content1-text', md: 14, xs: 24 },
   title: {
@@ -468,10 +474,16 @@ export const Footer10DataSource = {
         title: { children: '产品' },
         childWrapper: {
           children: [
-            { name: 'link0', href: '#', children: '产品更新记录' },
+            { 
+              name: 'link0', 
+              href: '#', 
+              target: '_brank',
+              children: '产品更新记录' 
+            },
             {
               name: 'link1',
-              href: '#',
+              href: 'https://cloudeon.readthedocs.io/en/latest/instal/',
+              target: '_brank',
               children: (
                 <span>
                   <span>
@@ -480,7 +492,12 @@ export const Footer10DataSource = {
                 </span>
               ),
             },
-            { name: 'link2', href: '#', children: '快速入门' },
+            { 
+              name: 'link2', 
+              href: 'https://cloudeon.readthedocs.io/en/latest/quickstart/', 
+              target: '_brank',
+              children: '快速入门' 
+            },
           ],
         },
       },
@@ -504,6 +521,7 @@ export const Footer10DataSource = {
             {
               href: '#',
               name: 'link1',
+              target: '_brank',
               children: (
                 <span>
                   <span>
@@ -532,8 +550,9 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: '#',
+              href: 'https://github.com/Pandas886/CloudEon/issues',
               name: 'link0',
+              target: '_brank',
               children: (
                 <span>
                   <p>github issues</p>
@@ -543,6 +562,7 @@ export const Footer10DataSource = {
             {
               href: '#',
               name: 'link1',
+              target: '_brank',
               children: (
                 <span>
                   <p>qq群：XXXX</p>
