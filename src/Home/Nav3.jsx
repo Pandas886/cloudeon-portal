@@ -26,49 +26,51 @@ class Header3 extends React.Component {
     const navData = dataSource.Menu.children;
     const navChildren = navData.map((item) => {
       const { children: a, subItem, ...itemProps } = item;
-      if (subItem) {
-        return (
-          <SubMenu
-            key={item.name}
-            {...itemProps}
-            title={
-              <div
-                {...a}
-                className={`header3-item-block ${a.className}`.trim()}
-              >
-                {a.children.map(getChildrenToRender)}
-              </div>
-            }
-            popupClassName="header3-item-child"
-          >
-            {subItem.map(($item, ii) => {
-              const { children: childItem } = $item;
-              const child = childItem.href ? (
-                <a {...childItem}>
-                  {childItem.children.map(getChildrenToRender)}
-                </a>
-              ) : (
-                <div {...childItem}>
-                  {childItem.children.map(getChildrenToRender)}
-                </div>
-              );
-              return (
-                <Item key={$item.name || ii.toString()} {...$item}>
-                  {child}
-                </Item>
-              );
-            })}
-          </SubMenu>
-        );
-      }
+      // if (subItem) {
+      //   return (
+      //     <SubMenu
+      //       key={item.name}
+      //       {...itemProps}
+      //       title={
+      //         <div
+      //           {...a}
+      //           className={`header3-item-block ${a.className}`.trim()}
+      //         >
+      //           {a.children.map(getChildrenToRender)}
+      //         </div>
+      //       }
+      //       popupClassName="header3-item-child"
+      //     >
+      //       {subItem.map(($item, ii) => {
+      //         const { children: childItem } = $item;
+      //         const child = childItem.href ? (
+      //           <a {...childItem}>
+      //             {childItem.children.map(getChildrenToRender)}
+      //           </a>
+      //         ) : (
+      //           <div {...childItem}>
+      //             {childItem.children.map(getChildrenToRender)}
+      //           </div>
+      //         );
+      //         return (
+      //           <Item key={$item.name || ii.toString()} {...$item}>
+      //             {child}
+      //           </Item>
+      //         );
+      //       })}
+      //     </SubMenu>
+      //   );
+      // }
       return (
         <Item key={item.name} {...itemProps}>
-          <a {...a} className={`header3-item-block ${a.className}`.trim()}>
+          <a {...a} className={`header3-item-block ${a.className}`.trim()} target={a.href=== "#" ? "_self":"_blank"}>
             {a.children.map(getChildrenToRender)}
           </a>
         </Item>
       );
     });
+
+    console.log('navChildren: ', navChildren);
     const moment = phoneOpen === undefined ? 300 : null;
     return (
       <TweenOne

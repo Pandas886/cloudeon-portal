@@ -33,7 +33,7 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://cloudeon.readthedocs.io',
           children: [
             {
               children: (
@@ -52,7 +52,7 @@ export const Nav30DataSource = {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://github.com/Pandas886/CloudEon',
           children: [
             {
               children: (
@@ -65,12 +65,13 @@ export const Nav30DataSource = {
             },
           ],
         },
+        subItem: null,
       },
       {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: '#',
+          href: 'https://gitee.com/Pandas886/CloudEon',
           children: [
             {
               children: (
@@ -83,12 +84,13 @@ export const Nav30DataSource = {
             },
           ],
         },
+        subItem: null,
       },
       {
         name: 'item~lg2gpc3ujxm',
         className: 'header3-item lg3hmzx7sdd-editor_css',
         children: {
-          href: '#',
+          href: 'https://cloudeon.readthedocs.io/en/latest/%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE/contribute/',
           children: [
             {
               children: (
@@ -101,6 +103,7 @@ export const Nav30DataSource = {
             },
           ],
         },
+        subItem: null,
       },
     ],
     subItem: {},
@@ -152,7 +155,8 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '#',
+          href: 'https://cloudeon.readthedocs.io/en/latest/quickstart/',
+          target: '_brank',
           className: 'banner5-button lg3fx8yhnx-editor_css',
           type: 'primary',
           children: '开始使用',
