@@ -5,6 +5,8 @@ const bg3 = require('../static/images/bg7.png')
 const icon1 = require('../static/images/icon1.png')
 const icon2 = require('../static/images/icon2.png')
 const icon3 = require('../static/images/icon3.png')
+const xuanchuangMp4 = require('../static/vedio/xuanchuang.mp4')
+const homeJpg = require('../static/images/home.jpg')
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -216,8 +218,8 @@ export const Content40DataSource = {
   video: {
     className: 'content4-video',
     children: {
-      video: 'https://os.alipayobjects.com/rmsportal/EejaUGsyExkXyXr.mp4',
-      image: 'https://zos.alipayobjects.com/rmsportal/HZgzhugQZkqUwBVeNyfz.jpg',
+      video: xuanchuangMp4,//'https://os.alipayobjects.com/rmsportal/EejaUGsyExkXyXr.mp4',
+      image: homeJpg,//'https://zos.alipayobjects.com/rmsportal/HZgzhugQZkqUwBVeNyfz.jpg',
     },
   },
 };
