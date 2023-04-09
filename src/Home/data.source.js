@@ -305,7 +305,7 @@ export const Feature30DataSource = {
               <span>
                 <span>
                   <span>
-                    <p>容器化运行所有大数据服务</p>
+                    <p>容器化运行大数据服务</p>
                   </span>
                 </span>
               </span>
@@ -316,7 +316,7 @@ export const Feature30DataSource = {
             children: (
               <span>
                 <p>
-                  CloudEon将所有大数据服务都以容器方式运行，使得这些服务的部署和管理更加灵活和便捷，同时也能更好地利用kubernetes的资源调度和管理能力
+                  CloudEon中所有大数据服务都以容器方式运行，使得这些服务的部署和管理更加灵活和便捷，同时也能更好地利用kubernetes的资源调度和管理能力
                 </p>
               </span>
             ),
@@ -408,7 +408,7 @@ export const Feature20DataSource = {
     children: (
       <span>
         <p>
-          CloudEon提供了可视化的管理界面，使得用户能够更加直观地管理和监控自己的大数据集群。
+          CloudEon提供了可视化的管理界面，使得用户能够更加直观地管理和监控大数据集群。
         </p>
       </span>
     ),
