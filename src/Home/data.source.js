@@ -7,6 +7,10 @@ const icon2 = require('../static/images/icon2.png')
 const icon3 = require('../static/images/icon3.png')
 const xuanchuangMp4 = require('../static/vedio/xuanchuang.mp4')
 const homeJpg = require('../static/images/home.jpg')
+const wxImg = require('../static/images/wx.jpg')
+const gongzhonghao = require('../static/images/gongzhonghao.png')
+
+
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -441,6 +445,135 @@ export const Feature11DataSource = {
     ),
   },
 };
+
+export const Teams10DataSource = {
+  wrapper: { className: 'home-page-wrapper teams1-wrapper' },
+  page: { className: 'home-page teams1' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <p>社区交流</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  block: {
+    className: 'block-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 12,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams1-image',
+              children: <img src={gongzhonghao}></img>,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+            },
+            {
+              name: 'title',
+              className: 'teams1-title',
+              children: (
+                <span>
+                  <span>
+                    <p>微信公众号</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams1-job',
+              children: (
+                <span>
+                  <span>
+                    <p>及时关注CloudEon最新动态</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams1-content',
+              children: (
+                <span>
+                  <p>
+                    <br />
+                  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 12,
+        xs: 24,
+        titleWrapper: {
+          children: [
+            {
+              name: 'image',
+              className: 'teams1-image',
+              children: <img src={wxImg}></img> ,//,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+            },
+            {
+              name: 'title',
+              className: 'teams1-title',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>个人微信</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'teams1-job',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>加好友请备注CloudEon，方便拉进群</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content1',
+              className: 'teams1-content',
+              children: (
+                <span>
+                  <p>
+                    <br />
+                  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+    ],
+  },
+};
+
 export const Footer10DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
   OverPack: { className: 'footer1', playScale: 0.2 },
@@ -567,7 +700,7 @@ export const Footer10DataSource = {
               target: '_brank',
               children: (
                 <span>
-                  <p>qq群：XXXX</p>
+                  <p>公众号：考恩说技术</p>
                 </span>
               ),
             },
