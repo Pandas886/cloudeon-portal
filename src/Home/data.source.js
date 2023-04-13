@@ -476,7 +476,7 @@ export const Teams10DataSource = {
             {
               name: 'image',
               className: 'teams1-image',
-              children: <img src={gongzhonghao}></img>,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+              children: <img src={gongzhonghao} alt="考恩说技术"></img>,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
             },
             {
               name: 'title',
@@ -524,7 +524,7 @@ export const Teams10DataSource = {
             {
               name: 'image',
               className: 'teams1-image',
-              children: <img src={wxImg}></img> ,//,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
+              children: <img src={wxImg} alt="wx"></img> ,//,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*njqxS5Ky7CQAAAAAAAAAAABjARQnAQ',
             },
             {
               name: 'title',
