@@ -652,9 +652,9 @@ export const Footer10DataSource = {
         },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
+            { href: 'https://cloudeon.readthedocs.io/en/latest/FAQ/', name: 'link0', children: 'FAQ' },
             {
-              href: '#',
+              href: 'https://cloudeon.readthedocs.io/en/latest/%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE/develop/',
               name: 'link1',
               target: '_brank',
               children: (
