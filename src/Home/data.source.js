@@ -7,7 +7,7 @@ const icon2 = require('../static/images/icon2.png')
 const icon3 = require('../static/images/icon3.png')
 const xuanchuangMp4 = require('../static/vedio/xuanchuang.mp4')
 const homeJpg = require('../static/images/home.jpg')
-const wxImg = require('../static/images/wx.jpg')
+const wxImg = require('../static/images/wx.png')
 const gongzhonghao = require('../static/images/gzh.jpg')
 
 
