@@ -8,7 +8,7 @@ const icon3 = require('../static/images/icon3.png')
 const xuanchuangMp4 = require('../static/vedio/xuanchuang.mp4')
 const homeJpg = require('../static/images/home.jpg')
 const wxImg = require('../static/images/wx.jpg')
-const gongzhonghao = require('../static/images/gongzhonghao.png')
+const gongzhonghao = require('../static/images/gzh.jpg')
 
 
 export const Nav30DataSource = {
