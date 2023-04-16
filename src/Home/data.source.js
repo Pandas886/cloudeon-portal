@@ -64,7 +64,7 @@ export const Nav30DataSource = {
         name: 'item2',
         className: 'header3-item',
         children: {
-          href: 'https://github.com/Pandas886/CloudEon',
+          href: 'https://github.com/dromara/CloudEon',
           children: [
             {
               children: (
@@ -83,7 +83,7 @@ export const Nav30DataSource = {
         name: 'item3',
         className: 'header3-item',
         children: {
-          href: 'https://gitee.com/Pandas886/CloudEon',
+          href: 'https://gitee.com/dromara/CloudEon',
           children: [
             {
               children: (
@@ -476,7 +476,7 @@ export const Teams10DataSource = {
             {
               name: 'image',
               className: 'teams1-image',
-              children: <img src={gongzhonghao} alt="考恩说技术"></img>,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
+              children: <img src={gongzhonghao} alt="CloudEon开源"></img>,//'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*--rVR4hclJYAAAAAAAAAAABjARQnAQ',
             },
             {
               name: 'title',
@@ -685,7 +685,7 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              href: 'https://github.com/Pandas886/CloudEon/issues',
+              href: 'https://github.com/dromara/CloudEon/issues',
               name: 'link0',
               target: '_brank',
               children: (
@@ -700,7 +700,7 @@ export const Footer10DataSource = {
               target: '_brank',
               children: (
                 <span>
-                  <p>公众号：考恩说技术</p>
+                  <p>公众号：CloudEon开源</p>
                 </span>
               ),
             },
