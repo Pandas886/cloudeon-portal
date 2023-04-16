@@ -45,7 +45,7 @@ export const Nav30DataSource = {
         name: 'item1',
         className: 'header3-item',
         children: {
-          href: 'https://cloudeon.readthedocs.io',
+          href: 'https://docs.cloudeon.top',
           children: [
             {
               children: (
@@ -102,7 +102,7 @@ export const Nav30DataSource = {
         name: 'item~lg2gpc3ujxm',
         className: 'header3-item lg3hmzx7sdd-editor_css',
         children: {
-          href: 'https://cloudeon.readthedocs.io/en/latest/%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE/contribute/',
+          href: 'https://docs.cloudeon.top/en/latest/%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE/contribute/',
           children: [
             {
               children: (
@@ -167,7 +167,7 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: 'https://cloudeon.readthedocs.io/en/latest/quickstart/',
+          href: 'https://docs.cloudeon.top/en/latest/quickstart/',
           target: '_brank',
           className: 'banner5-button lg3fx8yhnx-editor_css',
           type: 'primary',
@@ -617,7 +617,7 @@ export const Footer10DataSource = {
             },
             {
               name: 'link1',
-              href: 'https://cloudeon.readthedocs.io/en/latest/instal/',
+              href: 'https://docs.cloudeon.top/en/latest/instal/',
               target: '_brank',
               children: (
                 <span>
@@ -629,7 +629,7 @@ export const Footer10DataSource = {
             },
             { 
               name: 'link2', 
-              href: 'https://cloudeon.readthedocs.io/en/latest/quickstart/', 
+              href: 'https://docs.cloudeon.top/en/latest/quickstart/', 
               target: '_brank',
               children: '快速入门' 
             },
@@ -652,9 +652,9 @@ export const Footer10DataSource = {
         },
         childWrapper: {
           children: [
-            { href: 'https://cloudeon.readthedocs.io/en/latest/FAQ/', name: 'link0', children: 'FAQ' },
+            { href: 'https://docs.cloudeon.top/en/latest/FAQ/', name: 'link0', children: 'FAQ' },
             {
-              href: 'https://cloudeon.readthedocs.io/en/latest/%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE/develop/',
+              href: 'https://docs.cloudeon.top/en/latest/%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE/develop/',
               name: 'link1',
               target: '_brank',
               children: (
