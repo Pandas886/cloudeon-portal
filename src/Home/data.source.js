@@ -533,7 +533,7 @@ export const Teams10DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>个人微信</p>
+                      <p>扫码进入"CloudEon社区群"</p>
                     </span>
                   </span>
                 </span>
@@ -548,7 +548,7 @@ export const Teams10DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>加好友请备注CloudEon，方便拉进群</p>
+                          {/* <p>加好友请备注CloudEon，方便拉进群</p> */}
                         </span>
                       </span>
                     </span>
