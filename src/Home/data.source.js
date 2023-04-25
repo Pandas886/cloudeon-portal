@@ -533,7 +533,7 @@ export const Teams10DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>扫码进入"CloudEon社区群"</p>
+                      <p>CloudEon社区群</p>
                     </span>
                   </span>
                 </span>
