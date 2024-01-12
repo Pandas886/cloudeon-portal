@@ -167,7 +167,7 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: 'https://docs.cloudeon.top/en/latest/quickstart/',
+          href: 'https://docs.cloudeon.top/en/dev/quickstart/',
           target: '_brank',
           className: 'banner5-button lg3fx8yhnx-editor_css',
           type: 'primary',
@@ -629,7 +629,7 @@ export const Footer10DataSource = {
             },
             { 
               name: 'link2', 
-              href: 'https://docs.cloudeon.top/en/latest/quickstart/', 
+              href: 'https://docs.cloudeon.top/en/dev/quickstart/', 
               target: '_brank',
               children: '快速入门' 
             },
